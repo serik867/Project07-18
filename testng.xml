@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All Test Suite">
+    <test name="First Test Class">
+        <parameter name="Email" value="delik@gmail.com"></parameter>
+        <parameter name="Username" value="Behruz"></parameter>
+        <parameter name="LastName" value="Jum'a"></parameter>
+        <parameter name="TitleName" value="Contacts"></parameter>
+        <classes>
+            <class name="Tests.Test1"/>
+        </classes>
+    </test>
+
+    <test name="Second Test Class">
+        <parameter name="Domain" value="tutorialspoint.com"></parameter>
+        <parameter name="Name" value="BeXa"></parameter>
+        <parameter name="TitleName" value="Companies"></parameter>
+        <classes>
+            <class name="Tests.Test2"/>
+        </classes>
+    </test>
+</suite>
